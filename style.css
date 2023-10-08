@@ -1,0 +1,39 @@
+body{
+    display: flex;
+    justify-content: center;
+    font-family: "Permanent Marker",cursive;
+}
+
+.cell{
+   width: 75px;
+   height: 75px;
+   border: solid 2px;
+   box-shadow: 0 0 0 2px;
+   line-height: 75px;
+   font-size: 50px;
+   text-align: center;
+}
+#container{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    width: 225px;
+    
+}
+#text{
+  text-align: center;
+  color: #000;
+}
+#btn{
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    font-family: "Permanent Marker",cursive;
+    font-size: 22px;
+    background-color:  rgb(149, 172, 214);
+    color: black;
+}
+.foot-content{
+    margin-top: 350px;
+    margin-left: -210px;
+    
+}
